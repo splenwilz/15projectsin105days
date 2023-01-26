@@ -18,7 +18,25 @@ This is a complete web development walkthrough, where we'll be building 15 proje
 
 ## 3. Quiz App
 - We'll create the UI shown below during the second week of working on the project using HTML, CSS, and vanilla JavaScript.
-### We'll;
+##### We'll;
 - Implement grid system learnt in previous project
 - Build responsive screen for all screen sizes `320, 480, 780, 1024, ...`
 <img src='https://github.com/splenwilz/15projectsin105days/blob/main/Quiz%20App/quiz%20app.PNG'>
+
+## 4. Blog site
+As a beginner, creating a blog site as a web development project can help you learn a variety of skills including:
+
+#### HTML and CSS:
+You will learn how to structure and style a website using HTML and CSS.
+
+#### JavaScript:
+You may use JavaScript to add interactivity and dynamic functionality to your blog site.
+
+#### Database management:
+You will learn how to store and retrieve data from a database, such as blog posts and comments.
+
+#### Web development best practices:
+You will learn how to design and develop a website that is user-friendly, responsive, and accessible.
+
+##### Problem-solving:
+The process of building a blog site will likely involve encountering and solving various technical challenges.

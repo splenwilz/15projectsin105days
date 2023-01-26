@@ -16,9 +16,9 @@ This is a complete web development walkthrough, where we'll be building 15 proje
 - Build responsive screen for all screen sizes `320, 480, 780, 1024, ...`
 <img src='https://github.com/splenwilz/15projectsin105days/blob/main/Dream%20Robotics/dreamrobotics.PNG'>
 
-## 2. Quiz App
+## 3. Quiz App
 - We'll create the UI shown below during the second week of working on the project using HTML, CSS, and vanilla JavaScript.
 ### We'll;
 - Implement grid system learnt in previous project
 - Build responsive screen for all screen sizes `320, 480, 780, 1024, ...`
-<img src='https://github.com/splenwilz/15projectsin105days/blob/main/Dream%20Robotics/dreamrobotics.PNG'>
+<img src='https://github.com/splenwilz/15projectsin105days/blob/main/Quiz%20App/quiz%20app.PNG'>

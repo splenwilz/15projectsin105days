@@ -5,6 +5,8 @@
 - Introduction to HTML and CSS
 ### Project
 #### Personal Website
+<img src="https://github.com/splenwilz/15projectsin105days/blob/main/Personal%20Website/portfolio.PNG" alt="Personal Project">
+
 
 The end goal of creating a personal website in week 1 would be for students to have a basic understanding of how to create and structure a webpage using HTML and CSS. By the end of the project, students should be able to:
 - Understand the basic structure of an HTML document

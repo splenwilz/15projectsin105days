@@ -131,7 +131,55 @@ By creating a chat application, students will be able to see the direct applicat
 - Introduction to server-side languages such as PHP, Ruby, and Python
 - Understanding the basics of how web servers work
 - Building a simple server-side application
+### Project
+#### Restful API
+For week 7, which focuses on server-side scripting, a good project to consider would be building a simple RESTful API. The goal of this project would be for students to:
 
-## Week 8: Final Project
-- Creating a final project to put all the concepts learned together
-- Presenting the final project to the class and getting feedback
+- Understand the basics of server-side scripting and how it differs from client-side scripting.
+- Learn how to create a RESTful API using a server-side framework such as Express or Flask.
+- Learn how to create routes, handle HTTP requests and responses, and handle data validation.
+- Understand how to use a database such as MongoDB or MySQL to store and retrieve data.
+- Learn how to secure the API using best practices such as JWT Authentication.
+
+By the end of this project, students should be able to:
+- Understand the basics of server-side scripting
+- Understand how to create a RESTful API
+- Understand how to handle HTTP requests and response.
+- Understand how to handle data validation
+- Understand how to use a database
+- Understand how to secure the API
+
+Creating a simple RESTful API will give students a good understanding of the basics of server-side scripting, and it will also give them a good foundation for building more complex web applications. The project can be as simple as a CRUD for a single resource, or a more complex one where you connect it to a front-end application.
+
+## Week 8: 
+- Building a weather app using React: Students will use the React framework to build a weather app that displays the current weather for a selected city.
+- Building a budgeting app using Angular: Students will use the Angular framework to build a budgeting app that allows users to track their expenses and income.
+
+## Week 9:
+- Building a CRUD application using React: Students will use React to build a simple CRUD application, such as a task manager app that allows users to create, read, update, and delete tasks.
+- Building a CRUD application using Angular: Students will use Angular to build a simple CRUD application, such as a contact manager app that allows users to create, read, update, and delete contacts.
+
+## Week 10:
+- Building a game using advanced JavaScript concepts: Students will use closures, prototypes, and the this keyword to build a simple game, such as a memory card game or a snake game.
+
+## Week 11:
+- Building a user authentication system using Passport.js: Students will use Passport.js to build a user authentication system for a web application, such as a blog or a social media app.
+- Building an authorization system using JSON Web Tokens (JWT): Students will use JWT to build an authorization system for a web application, such as a task manager app where users can only access their own tasks.
+
+## Week 12:
+- Building a serverless API using AWS Lambda: Students will use AWS Lambda to build a serverless API for a web application, such as a task manager app or a weather app.
+- Building a serverless function using Azure Functions: Students will use Azure Functions to build a serverless function for a web application, such as an image resizing function or a data processing function.
+
+## Week 13:
+- Building a serverless chat app using Firebase: Students will use Firebase to build a serverless chat app that allows users to send and receive messages in real-time.
+- Building a serverless e-commerce website using AWS Amplify: Students will use AWS Amplify to build a serverless e-commerce website that allows users to browse products, add them to their cart, and make purchases.
+
+## Week 14:
+- Building a serverless image uploader using Cloudinary: Students will use Cloudinary to build a serverless image uploader that allows users to upload images to the cloud and view them on a website
+- Building a serverless data visualization using Tableau: Students will use Tableau to build a serverless data visualization for a dataset of their choice
+
+## Week 15:
+### Final project: 
+- Students will work on a final project that brings together all the concepts they have learned throughout the course. The project can be an extension of one of the previous projects or a new project that they come up with. Examples could be a social media website, a e-commerce website, a project management application and so on.
+
+Please note that the above project ideas are flexible and can be adjusted to suit the resources available. The goal is to give the students a hands-on experience in building web applications while learning the concepts.

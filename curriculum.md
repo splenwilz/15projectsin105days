@@ -183,3 +183,13 @@ Creating a simple RESTful API will give students a good understanding of the bas
 - Students will work on a final project that brings together all the concepts they have learned throughout the course. The project can be an extension of one of the previous projects or a new project that they come up with. Examples could be a social media website, a e-commerce website, a project management application and so on.
 
 Please note that the above project ideas are flexible and can be adjusted to suit the resources available. The goal is to give the students a hands-on experience in building web applications while learning the concepts.
+
+## Bonus Project
+
+### 1. Football Livescore
+- We'll create the UI shown below during the first week of working on the project using HTML, CSS, and vanilla JavaScript.
+- This will help us learn the fundamental CSS ideas of basic styling and the CSS grid system.
+- When we return to this project, we'll discuss responsiveness and how we'll use media queries to scale the web app for all screen sizes
+- The next step will be interactive animations, where Javascript will be used extensively.
+- Since we need live results of daily matches played We'll be populating our result via an API at `https://rapidapi.com/api-sports/api/api-football`
+<img src="https://github.com/splenwilz/15projectsin105days/blob/main/Goalscore%20Football%20Livescore/livescore.PNG">

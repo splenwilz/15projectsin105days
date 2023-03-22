@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin Scrapers</title>
+    <script type="text/javascript" src="https://platform.linkedin.com/in.js">  
+        api_key: "77tp4mvjqiv07b" ////Client ID  
+        onLoad: onLinkedInLoad  
+        authorize: true  
+    </script>  
+</head>
+  
+<body>  
+    <div id="displayUpdates"></div>  
+    <script type="text/javascript">  
+        function onLinkedInLoad() {  
+            IN.Event.on(IN, "auth", onLinkedInAuth);  
+            console.log("On auth");  
+        }  
+  
+        function onLinkedInAuth() {  
+            var cpnyID = "knowaloud"; //the Company ID for which we want updates  
+            IN.API.Raw("/companies/" + cpnyID + "/updates?event-type=status-update&start=0&count=10&format=json").result(displayCompanyUpdates);  
+            console.log("After auth");  
+        }  
+  
+        function displayCompanyUpdates(result) {  
+            var div = document.getElementById("displayUpdates");  
+            var el = "<ul>";  
+            var resValues = result.values;  
+            for (var i in resValues) {  
+                var share = resValues[i].updateContent.companyStatusUpdate.share;  
+                var isContent = share.content;  
+                var isTitled = isContent,  
+                    isLinked = isContent,  
+                    isDescription = isContent,  
+                    isThumbnail = isContent,  
+                    isComment = isContent;  
+                if (isTitled) {  
+                    var title = isContent.title;  
+                } else {  
+                    var title = "News headline";  
+                }  
+                var comment = share.comment;  
+                if (isLinked) {  
+                    var link = isContent.shortenedUrl;  
+                } else {  
+                    var link = "#";  
+                }  
+                if (isDescription) {  
+                    var description = isContent.description;  
+                } else {  
+                    var description = "No description";  
+                }  
+                /* 
+                if (isThumbnailz) { 
+                var thumbnailUrl = isContent.thumbnailUrl; 
+                } else { 
+                var thumbnailUrl = "http://placehold.it/60x60"; 
+                } 
+                */  
+                if (share) {  
+                    var content = "<a target='_blank' href=" + link + ">" + comment + "</a><br>";  
+                    //el += "<li><img src='" + thumbnailUrl + "' alt=''>" + content + "</li>";  
+                    el += "<li><div>" + content + "</div></li>";  
+                }  
+                console.log(share);  
+            }  
+            el += "</ul>";  
+            document.getElementById("displayUpdates").innerHTML = el;  
+        }  
+    </script>  
+</body>  
+</html>
